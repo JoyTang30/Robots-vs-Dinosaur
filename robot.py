@@ -5,7 +5,7 @@ class Robot:
     def __init__(self, name):
         self.name = name
         self.health = 100
-        self.active_weapon = Weapon("Laser", 25)
+        self.active_weapon = Weapon("Laser", 20)
 
 
     def attack(self, dinosaur):
