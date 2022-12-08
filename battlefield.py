@@ -19,11 +19,11 @@ class Battlefield:
             self.Player_1.attack(self.Player_2) 
             self.Player_2.attack(self.Player_1)
             print (f"Robot {self.Player_1.name} attacked dinosaur {self.Player_2.name} with a {self.Player_1.active_weapon.name} for {self.Player_1.active_weapon.attack_power} damage! ")
-            print (f"Dinosaur {self.Player_2.name} has a {self.Player_2.health} remaining!")
+            print (f"Dinosaur {self.Player_2.name} has a {self.Player_2.health} health remaining!")
             if self.Player_2.health== 0:
                 break
             print(f"Dinosaur {self.Player_2.name} attacked {self.Player_1.name} for {self.Player_2.attack_power} damage!")
-            print(f"Robot {self.Player_1.name} has {self.Player_1.health} remaining!")
+            print(f"Robot {self.Player_1.name} has {self.Player_1.health} health remaining!")
             
                 
         
